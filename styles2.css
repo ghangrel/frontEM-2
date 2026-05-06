@@ -22,65 +22,65 @@ body {
 }
 
 article {
-    max-width: 336px;
-    width: 90%;
+    max-width: 21rem;
+    width: clamp(300px, 90%, 340px);
     background: var(--white);
-    padding: 18px;
-    border-radius: 20px;
-    border: 2px solid var(--grey950);
-    box-shadow: 5px 5px;
+    padding: 1.5rem;
+    border-radius: 1.25rem;
+    border: 0.122rem solid var(--grey950);
+    box-shadow: 0.3rem 0.3rem;
 }
 
 .ilustration {
     width: 100%;
     height: auto;
     display: block;
-    border-radius: 16px;
+    border-radius: 1rem;
 }
 
 .tag {
     background: var(--background);
     color: var(--grey950);
-    margin-top: 20px;
+    margin-top: 1.5rem;
     width: fit-content;
-    padding: 4px 10px;
-    border-radius: 4px;
+    padding: .25rem 0.625rem;
+    border-radius: 0.25rem;
     font-weight: 800;
 
 }
 
 .date {
     color: var(--grey950);
-    margin-top: 15px;
+    margin-top: 1rem;
     font-weight: 500;
-    font-size: 12px;
+    font-size: .75rem;
 }
 
 h1 {
-    margin-top: 15px;
-    font-size: 20px;
+    margin-top: 1rem;
+    font-size: 1rem;
 }
 
 .description {
-    margin-top: 15px;
-    font-size: 15px;
+    margin-top: 1rem;
+    font-size: 1rem;
     color: var(--grey500);
     line-height: 1.5;
     font-weight: 400;
 }
 
 .profile {
-    margin-top: 20px;
+    margin-block-start:1.25rem;
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 1rem;
 }
 
 .profile img {
-    height: 30px;
+    height: 1.8rem;
 }
 
 .profile p {
-    font-size: 12px;
+    font-size: .75rem;
     font-weight: 800;
 }
