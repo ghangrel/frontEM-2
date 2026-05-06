@@ -22,16 +22,19 @@ body {
 }
 
 article {
-    width: 350px;
+    max-width: 336px;
+    width: 90%;
     background: var(--white);
-    padding: 20px;
+    padding: 18px;
     border-radius: 20px;
     border: 2px solid var(--grey950);
     box-shadow: 5px 5px;
 }
 
 .ilustration {
-    width: 305px;
+    width: 100%;
+    height: auto;
+    display: block;
     border-radius: 16px;
 }
 
