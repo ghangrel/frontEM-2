@@ -12,6 +12,7 @@
 }
 
 body {
+    width: 100%;
     background-color: var(--background);
     display: flex;
     flex-direction: column;
@@ -22,10 +23,10 @@ body {
 }
 
 article {
-    max-width: 21rem;
+    margin-inline: auto;
     width: clamp(300px, 90%, 340px);
     background: var(--white);
-    padding: 1.5rem;
+    padding: clamp(1rem, 5vw, 1.5rem);
     border-radius: 1.25rem;
     border: 0.122rem solid var(--grey950);
     box-shadow: 0.3rem 0.3rem;
